@@ -3,7 +3,7 @@ import { useState, useRef } from "react";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import UploadProgress from "@/components/UploadProgress";
-import PdfConverter from "@/components/PdfConverter";
+import EnhancedBankStatementParser from "@/components/EnhancedBankStatementParser";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { 
@@ -101,9 +101,9 @@ const Index = () => {
                 Fast, secure, and incredibly accurate.
               </p>
 
-              {/* PDF Converter Component */}
+              {/* Enhanced Bank Statement Parser */}
               <div className="max-w-4xl mx-auto mb-12">
-                <PdfConverter />
+                <EnhancedBankStatementParser />
               </div>
 
               {isUploading && (
